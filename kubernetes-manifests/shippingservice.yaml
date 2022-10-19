@@ -40,7 +40,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: northamerica-northeast1-docker.pkg.dev/gcp-ha-demo-353515/microservices-demo/shippingservice:v0.4.0
         ports:
         - containerPort: 50051
         env:
