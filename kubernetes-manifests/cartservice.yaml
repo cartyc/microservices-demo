@@ -41,7 +41,7 @@ spec:
               - all
           privileged: false
           readOnlyRootFilesystem: true
-        image: northamerica-northeast1-docker.pkg.dev/gcp-ha-demo-353515/microservices-demo/cartservice
+        image: northamerica-northeast1-docker.pkg.dev/gcp-ha-demo-353515/microservices-demo/cartservice:v0.4.0
         ports:
         - containerPort: 7070
         env:
