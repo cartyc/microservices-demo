@@ -45,7 +45,7 @@ spec:
   http:
   - route:
     - destination:
-        host: frontend
+        host: frontend-broken
         port:
           number: 8080
 ---
